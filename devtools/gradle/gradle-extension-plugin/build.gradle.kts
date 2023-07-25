@@ -12,6 +12,7 @@ group = "io.quarkus.extension"
 gradlePlugin {
     plugins.create("quarkusBootstrapPlugin") {
         id = "io.quarkus.extension"
+        version = "3.2.1.Peter"
         implementationClass = "io.quarkus.extension.gradle.QuarkusExtensionPlugin"
         displayName = "Quarkus Extension Plugin"
         description = "Builds a Quarkus extension"
